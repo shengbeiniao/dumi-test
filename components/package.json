@@ -1,0 +1,28 @@
+{
+  "name": "@zstack/components",
+  "version": "0.0.1",
+  "private": true,
+  "description": "ZStack-UI React 核心组件库",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "author": "ZStack UI Team",
+  "scripts": {
+    "build": "father-build",
+    "build:dev": "father-build --sourcemap --watch",
+    "test": "jest --colors",
+    "icon": "node scripts/icon"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "antd": "^4.2.2"
+  },
+  "dependencies": {}
+}
